@@ -1,0 +1,26 @@
+NAME test
+
+MAINTAINER "Krzysztof Nowak"
+PATH   '/home/corpora/test/indexed/'
+VERTICAL  '/home/corpora/test/vertical/corpus.xml'
+
+ATTRIBUTE   word
+ATTRIBUTE   tag
+ATTRIBUTE   lemma
+
+STRUCTURE doc {
+    ATTRIBUTE title {
+	LABEL "Document Title"
+	}
+    ATTRIBUTE author {
+	LABEL "Document Author"
+	}
+    LABEL "Corpus Document"
+}
+
+STRUCTURE div
+STRUCTURE div1
+STRUCTURE div2
+STRUCTURE p
+
+#STRUCTURE s
